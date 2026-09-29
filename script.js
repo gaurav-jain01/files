@@ -12,10 +12,10 @@ document.addEventListener('DOMContentLoaded', function () {
 
 
 
-  /* Countdown to conference date (29 July 2026, 09:00 local) */
+  /* Countdown to conference date (29 July 2027, 09:00 local) */
   var cdEl = document.getElementById('countdown');
   if (cdEl) {
-    var target = new Date('2026-07-29T09:00:00');
+    var target = new Date('2027-07-29T09:00:00');
     var dEl = document.getElementById('cd-days');
     var hEl = document.getElementById('cd-hours');
     var mEl = document.getElementById('cd-mins');
